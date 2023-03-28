@@ -1,0 +1,11 @@
+diff --git a/node_modules/react-native-vision-camera/ios/CameraError.swift b/node_modules/react-native-vision-camera/ios/CameraError.swift
+index 056bf13..74d1443 100644
+--- a/node_modules/react-native-vision-camera/ios/CameraError.swift
++++ b/node_modules/react-native-vision-camera/ios/CameraError.swift
+@@ -261,7 +261,7 @@ enum CameraError: Error {
+   case format(_ id: FormatError)
+   case session(_ id: SessionError)
+   case capture(_ id: CaptureError)
+-  case system(_ id: SystemError)
++  // case system(_ id: SystemError)
+   case unknown(message: String? = nil)
