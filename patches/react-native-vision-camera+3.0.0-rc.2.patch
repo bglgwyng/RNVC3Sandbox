@@ -9,3 +9,5 @@ index 056bf13..74d1443 100644
 -  case system(_ id: SystemError)
 +  // case system(_ id: SystemError)
    case unknown(message: String? = nil)
+ 
+   var code: String {
