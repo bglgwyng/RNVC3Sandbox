@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNVC3SandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNVC3SandboxTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-RNVC3Sandbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNVC3Sandbox.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2A78E29A29D2F45C0007F42E /* ExamplePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78E29929D2F45C0007F42E /* ExamplePlugin.swift */; };
-		7699B88040F8A987B510C191 /* libPods-RNVC3Sandbox-RNVC3SandboxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNVC3Sandbox-RNVC3SandboxTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		91200D68C4B04F5C58DAA0CE /* Pods_RNVC3Sandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCEFCFCF9835E0E47F68A5A /* Pods_RNVC3Sandbox.framework */; };
+		B70B71D9127AFA40829E1C24 /* Pods_RNVC3Sandbox_RNVC3SandboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31511B811F8D87D3415A63FD /* Pods_RNVC3Sandbox_RNVC3SandboxTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +37,15 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNVC3Sandbox/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNVC3Sandbox/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNVC3Sandbox/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNVC3Sandbox-RNVC3SandboxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNVC3Sandbox-RNVC3SandboxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A78E29929D2F45C0007F42E /* ExamplePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePlugin.swift; sourceTree = "<group>"; };
 		2A78E29B29D2F4970007F42E /* RNVC3Sandbox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNVC3Sandbox-Bridging-Header.h"; sourceTree = "<group>"; };
+		31511B811F8D87D3415A63FD /* Pods_RNVC3Sandbox_RNVC3SandboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNVC3Sandbox_RNVC3SandboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-RNVC3Sandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVC3Sandbox.debug.xcconfig"; path = "Target Support Files/Pods-RNVC3Sandbox/Pods-RNVC3Sandbox.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNVC3Sandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVC3Sandbox.release.xcconfig"; path = "Target Support Files/Pods-RNVC3Sandbox/Pods-RNVC3Sandbox.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNVC3Sandbox-RNVC3SandboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVC3Sandbox-RNVC3SandboxTests.debug.xcconfig"; path = "Target Support Files/Pods-RNVC3Sandbox-RNVC3SandboxTests/Pods-RNVC3Sandbox-RNVC3SandboxTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-RNVC3Sandbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNVC3Sandbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNVC3Sandbox/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNVC3Sandbox-RNVC3SandboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVC3Sandbox-RNVC3SandboxTests.release.xcconfig"; path = "Target Support Files/Pods-RNVC3Sandbox-RNVC3SandboxTests/Pods-RNVC3Sandbox-RNVC3SandboxTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFCEFCFCF9835E0E47F68A5A /* Pods_RNVC3Sandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNVC3Sandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-RNVC3Sandbox-RNVC3SandboxTests.a in Frameworks */,
+				B70B71D9127AFA40829E1C24 /* Pods_RNVC3Sandbox_RNVC3SandboxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-RNVC3Sandbox.a in Frameworks */,
+				91200D68C4B04F5C58DAA0CE /* Pods_RNVC3Sandbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-RNVC3Sandbox.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNVC3Sandbox-RNVC3SandboxTests.a */,
+				AFCEFCFCF9835E0E47F68A5A /* Pods_RNVC3Sandbox.framework */,
+				31511B811F8D87D3415A63FD /* Pods_RNVC3Sandbox_RNVC3SandboxTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

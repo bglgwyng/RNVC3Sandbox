@@ -14,8 +14,9 @@
     "react": "18.2.0",
     "react-native": "0.71.4",
     "react-native-reanimated": "^3.0.2",
-    "react-native-vision-camera": "github:mrousavy/react-native-vision-camera#af4e366",
-    "react-native-worklets": "github:chrfalch/react-native-worklets#d62d76c"
+    "react-native-vision-camera": "^3.0.0-rc.2",
+    "react-native-worklets": "github:chrfalch/react-native-worklets#d62d76c",
+    "vision-camera-code-scanner": "./vision-camera-code-scanner-0.2.0.tgz"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

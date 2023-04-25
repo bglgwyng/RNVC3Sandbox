@@ -5995,9 +5995,9 @@ react-native-codegen@^0.71.5:
     nullthrows "^1.1.1"
 
 react-native-gradle-plugin@^0.71.16:
-  version "0.71.16"
-  resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.16.tgz#822bb0c680e03b5df5aa65f2e5ffc2bc2930854a"
-  integrity sha512-H2BjG2zk7B7Wii9sXvd9qhCVRQYDAHSWdMw9tscmZBqSP62DkIWEQSk4/B2GhQ4aK9ydVXgtqR6tBeg3yy8TSA==
+  version "0.71.17"
+  resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.17.tgz#cf780a27270f0a32dca8184eff91555d7627dd00"
+  integrity sha512-OXXYgpISEqERwjSlaCiaQY6cTY5CH6j73gdkWpK0hedxtiWMWgH+i5TOi4hIGYitm9kQBeyDu+wim9fA8ROFJA==
 
 react-native-reanimated@^3.0.2:
   version "3.0.2"
@@ -6012,9 +6012,10 @@ react-native-reanimated@^3.0.2:
     setimmediate "^1.0.5"
     string-hash-64 "^1.0.3"
 
-"react-native-vision-camera@github:mrousavy/react-native-vision-camera#af4e366":
+react-native-vision-camera@^3.0.0-rc.2:
   version "3.0.0-rc.2"
-  resolved "https://codeload.github.com/mrousavy/react-native-vision-camera/tar.gz/af4e366312a2335535f80109e6bf0b3a977444f0"
+  resolved "https://registry.yarnpkg.com/react-native-vision-camera/-/react-native-vision-camera-3.0.0-rc.2.tgz#9941a7acd2f8e9c1f7d5c5eb28ab5ea2443d6466"
+  integrity sha512-I3CnBXfPxt5gkRtQLNR2gCgT1NAjNCvyXcSnv0764REpe7BbfUCL0QgOfGw4A4diYhutZ1a16xbcViL1V3Kh4g==
 
 "react-native-worklets@github:chrfalch/react-native-worklets#d62d76c":
   version "0.1.0"
@@ -7079,6 +7080,10 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
+
+vision-camera-code-scanner@./vision-camera-code-scanner-0.2.0.tgz:
+  version "0.2.0"
+  resolved "./vision-camera-code-scanner-0.2.0.tgz#16589a18569264bc19a70198f30c812a3eca443a"
 
 vlq@^1.0.0:
   version "1.0.1"
