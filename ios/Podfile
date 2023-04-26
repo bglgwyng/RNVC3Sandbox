@@ -45,6 +45,25 @@ target 'RNVC3Sandbox' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+
+  pre_install do |installer|
+    installer.pod_targets.each do |pod|
+      if pod.name.start_with?('Permission-') ||
+        [
+          # https://github.com/Shopify/react-native-skia/issues/652#issuecomment-1280278930 
+          'react-native-skia/Api',
+          'react-native-skia/Jsi',
+          'react-native-skia/RNSkia',
+          'react-native-skia/SkiaHeaders',
+          'react-native-skia/Utils',
+          'react-native-skia',].include?(pod.name)
+        def pod.build_type
+          Pod::BuildType.static_library
+        end
+      end
+    end
+  end
+
   target 'RNVC3SandboxTests' do
     inherit! :complete
     # Pods for testing

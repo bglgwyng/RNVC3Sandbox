@@ -12,11 +12,11 @@
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.71.4",
+    "react-native": "0.71.6",
     "react-native-reanimated": "^3.0.2",
-    "react-native-vision-camera": "^3.0.0-rc.2",
+    "react-native-vision-camera": "github:mrousavy/react-native-vision-camera#v3",
     "react-native-worklets": "github:chrfalch/react-native-worklets#d62d76c",
-    "vision-camera-code-scanner": "./vision-camera-code-scanner-0.2.0.tgz"
+    "vision-camera-code-scanner": "./vision-camera-code-scanner-0.2.1-rc.0.tgz"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -31,7 +31,7 @@
     "babel-jest": "^29.2.1",
     "eslint": "^8.19.0",
     "jest": "^29.2.1",
-    "metro-react-native-babel-preset": "0.73.8",
+    "metro-react-native-babel-preset": "0.73.9",
     "patch-package": "^6.5.1",
     "prettier": "^2.4.1",
     "react-test-renderer": "18.2.0",
