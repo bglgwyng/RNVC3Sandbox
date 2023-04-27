@@ -6962,9 +6962,9 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-vision-camera-code-scanner@./vision-camera-code-scanner-0.2.1-rc.0.tgz:
-  version "0.2.1-rc.0"
-  resolved "./vision-camera-code-scanner-0.2.1-rc.0.tgz#53c9c7741e77ae8ae780fff4d12fd2b69390db9c"
+vision-camera-code-scanner@./vision-camera-code-scanner-0.2.1-rc.1.tgz:
+  version "0.2.1-rc.1"
+  resolved "./vision-camera-code-scanner-0.2.1-rc.1.tgz#fc72e7863bbf00ebd7c5be20d0b007efbfcdf6c8"
 
 vlq@^1.0.0:
   version "1.0.1"

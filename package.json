@@ -16,7 +16,7 @@
     "react-native-reanimated": "^3.0.2",
     "react-native-vision-camera": "github:mrousavy/react-native-vision-camera#v3",
     "react-native-worklets": "github:chrfalch/react-native-worklets#d62d76c",
-    "vision-camera-code-scanner": "./vision-camera-code-scanner-0.2.1-rc.0.tgz"
+    "vision-camera-code-scanner": "./vision-camera-code-scanner-0.2.1-rc.1.tgz"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

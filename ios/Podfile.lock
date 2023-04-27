@@ -470,7 +470,7 @@ PODS:
     - React-Core
     - react-native-skia
     - react-native-worklets
-  - VisionCameraCodeScanner (0.2.1-rc.0):
+  - VisionCameraCodeScanner (0.2.1-rc.1):
     - GoogleMLKit/BarcodeScanning
     - React-Core
     - VisionCamera
@@ -667,8 +667,8 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: 8692ac548bec648fa121980ccb4304afd136d584
   ReactCommon: 0982e4657e0ecdc3a90858fbb529d54cd0be8fb4
   RNReanimated: f0dd6b881808e635ef0673f89642937d6c141314
-  VisionCamera: 123c4f511b55e15232da030f74346523976ffa2c
-  VisionCameraCodeScanner: 547d043fa341f72730d2de124e26fd19ac2fe33c
+  VisionCamera: 607b6d5f6d458dd9673fbf1f294868c84de6236c
+  VisionCameraCodeScanner: ddbf64d588d8f768810474017bb24f8fbeb8c045
   Yoga: ba09b6b11e6139e3df8229238aa794205ca6a02a
 
 PODFILE CHECKSUM: f2a2aec13394540ae2f3e2e5d8347630c96360a1

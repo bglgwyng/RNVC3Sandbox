@@ -1,13 +1,12 @@
-diff --git a/node_modules/react-native-vision-camera/ios/CameraError.swift b/node_modules/react-native-vision-camera/ios/CameraError.swift
-index 056bf13..74d1443 100644
---- a/node_modules/react-native-vision-camera/ios/CameraError.swift
-+++ b/node_modules/react-native-vision-camera/ios/CameraError.swift
-@@ -261,7 +261,7 @@ enum CameraError: Error {
-   case format(_ id: FormatError)
-   case session(_ id: SessionError)
-   case capture(_ id: CaptureError)
--  case system(_ id: SystemError)
-+  // case system(_ id: SystemError)
-   case unknown(message: String? = nil)
- 
-   var code: String {
+diff --git a/node_modules/react-native-vision-camera/VisionCamera.podspec b/node_modules/react-native-vision-camera/VisionCamera.podspec
+index 739478f..0dd4951 100644
+--- a/node_modules/react-native-vision-camera/VisionCamera.podspec
++++ b/node_modules/react-native-vision-camera/VisionCamera.podspec
+@@ -43,6 +43,7 @@ Pod::Spec.new do |s|
+   # All source files that should be publicly visible
+   # Note how this does not include headers, since those can nameclash.
+   s.source_files = [
++    "VisionCamera.h",
+     "ios/**/*.{m,mm,swift}",
+     "ios/CameraBridge.h",
+     "ios/Skia Render Layer/PreviewSkiaView.h",
