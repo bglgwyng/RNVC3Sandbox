@@ -1,0 +1,36 @@
+diff --git a/node_modules/@shopify/react-native-skia/react-native-skia.podspec b/node_modules/@shopify/react-native-skia/react-native-skia.podspec
+index 76c3152..558399d 100644
+--- a/node_modules/@shopify/react-native-skia/react-native-skia.podspec
++++ b/node_modules/@shopify/react-native-skia/react-native-skia.podspec
+@@ -44,6 +44,31 @@ Pod::Spec.new do |s|
+     "cpp/**/*.{h,cpp}"
+   ]
+ 
++  s.subspec 'SkiaHeaders' do |ss|
++    ss.header_mappings_dir = 'cpp/skia'
++    ss.source_files = "cpp/skia/**/*.{h,cpp}"
++  end
++
++  s.subspec 'Utils' do |ss|
++    ss.header_mappings_dir = 'cpp/utils'
++    ss.source_files = "cpp/utils/**/*.{h,cpp}"
++  end
++
++  s.subspec 'Jsi' do |ss|
++    ss.header_mappings_dir = 'cpp/jsi'
++    ss.source_files = "cpp/jsi/**/*.{h,cpp}"
++  end
++
++  s.subspec 'Api' do |ss|
++    ss.header_mappings_dir = 'cpp/api'
++    ss.source_files = "cpp/api/**/*.{h,cpp}"
++  end
++
++  s.subspec 'RNSkia' do |ss|
++    ss.header_mappings_dir = 'cpp/rnskia'
++    ss.source_files = "cpp/rnskia/**/*.{h,cpp}"
++  end
++
+   s.dependency "React"
+   s.dependency "React-callinvoker"
+   s.dependency "React-Core"
