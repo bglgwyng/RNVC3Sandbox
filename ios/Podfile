@@ -57,4 +57,10 @@ target 'RNVC3Sandbox' do
     )
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
+
+  pod 'TensorFlowLiteSwift', '~> 2.4.0', :subspecs => ['CoreML', 'Metal']
+
+  pod 'MLKitVision'
+  pod 'MLKitCommon'
+  pod 'MLKitFaceDetection'
 end
