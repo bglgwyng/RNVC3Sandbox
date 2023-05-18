@@ -15,6 +15,7 @@
   self.initialProps = @{};
   
   [FrameProcessorPlugin registerPlugin:[[FaceDetectorPlugin alloc] init]];
+  [FrameProcessorPlugin registerPlugin:[[FaceRecognizerPlugin alloc] init]];
 
   return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }

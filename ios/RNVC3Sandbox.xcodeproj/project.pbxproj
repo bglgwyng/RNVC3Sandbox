@@ -13,6 +13,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2A0273812A15C24F009CBCB3 /* FaceDetectorPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0273802A15C24F009CBCB3 /* FaceDetectorPlugin.swift */; };
+		2A0273842A15DA68009CBCB3 /* FaceRecognizerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0273832A15DA68009CBCB3 /* FaceRecognizerPlugin.swift */; };
+		2A0273862A15DCE8009CBCB3 /* facenet.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 2A0273852A15DCE8009CBCB3 /* facenet.tflite */; };
 		2A78E29A29D2F45C0007F42E /* ExamplePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78E29929D2F45C0007F42E /* ExamplePlugin.swift */; };
 		7699B88040F8A987B510C191 /* libPods-RNVC3Sandbox-RNVC3SandboxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNVC3Sandbox-RNVC3SandboxTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -40,6 +42,8 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNVC3Sandbox/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNVC3Sandbox-RNVC3SandboxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNVC3Sandbox-RNVC3SandboxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0273802A15C24F009CBCB3 /* FaceDetectorPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectorPlugin.swift; sourceTree = "<group>"; };
+		2A0273832A15DA68009CBCB3 /* FaceRecognizerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognizerPlugin.swift; sourceTree = "<group>"; };
+		2A0273852A15DCE8009CBCB3 /* facenet.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = facenet.tflite; sourceTree = "<group>"; };
 		2A78E29929D2F45C0007F42E /* ExamplePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePlugin.swift; sourceTree = "<group>"; };
 		2A78E29B29D2F4970007F42E /* RNVC3Sandbox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNVC3Sandbox-Bridging-Header.h"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNVC3Sandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVC3Sandbox.debug.xcconfig"; path = "Target Support Files/Pods-RNVC3Sandbox/Pods-RNVC3Sandbox.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 		2A02737E2A15C1E4009CBCB3 /* FrameProcessors */ = {
 			isa = PBXGroup;
 			children = (
+				2A0273822A15DA5C009CBCB3 /* FaceRecognizer */,
 				2A02737F2A15C1EC009CBCB3 /* FaceDetector */,
 			);
 			path = FrameProcessors;
@@ -117,6 +122,14 @@
 				2A0273802A15C24F009CBCB3 /* FaceDetectorPlugin.swift */,
 			);
 			path = FaceDetector;
+			sourceTree = "<group>";
+		};
+		2A0273822A15DA5C009CBCB3 /* FaceRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				2A0273832A15DA68009CBCB3 /* FaceRecognizerPlugin.swift */,
+			);
+			path = FaceRecognizer;
 			sourceTree = "<group>";
 		};
 		2A78E29729D2F4450007F42E /* Frame Processor Plugins */ = {
@@ -155,6 +168,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				2A0273852A15DCE8009CBCB3 /* facenet.tflite */,
 				2A02737E2A15C1E4009CBCB3 /* FrameProcessors */,
 				13B07FAE1A68108700A75B9A /* RNVC3Sandbox */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -282,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0273862A15DCE8009CBCB3 /* facenet.tflite in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -456,6 +471,7 @@
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				2A78E29A29D2F45C0007F42E /* ExamplePlugin.swift in Sources */,
 				2A0273812A15C24F009CBCB3 /* FaceDetectorPlugin.swift in Sources */,
+				2A0273842A15DA68009CBCB3 /* FaceRecognizerPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
